@@ -1,0 +1,51 @@
+Τεχνικές και αλγόριθμοι που μπορώ να χρησιμοποιήσω
+
+Εξωτερική Γνώση - Δομημένα Λεξικά με συνώνυμα, σημασιολογικά
+	MeSH
+	--UMLS
+	PubMed
+	HarmonicSS Reference model
+	--The SPECIALIST Lexicon
+	--SNOMED-CT
+	++NCITHESAURUS
+	++human disease ontology -- disease-onology.org
+	++Human phenotyp ontology -- hpo.jax.org/app/
+	++Chemical Entities of Biological Interest  -- ebi.ac.uk/chebi
+Ruled based Techniques (Ctakes)
+	Sentence boundary detection
+		CoreNLP [Sentence Boundary Detection: A Long Solved Problem?]
+	Tokenization
+		Stanford  POS  tagger 
+	Morphological Analysis
+	Lemmatization
+		BioLemmatizer [BioLemmatizer: a lemmatization tool formorphological processing of biomedical text]
+	Collective permissible value ranges derived from all the trials using this feature
+Machine-learning techniques
+	POS tagging
+		Stanford  POS  tagger
+	Identifying Noun Phrases
+	Inflection
+	Homographic abbreviation
+	word sense disampiguation
+	Negation extraction
+	Relation extraction
+		Anaphora reference resolution
+		identity (pronouns)
+		part/whole
+		superset/subset
+	SVM http://svmlight.joachims.org/
+
+		Classify inputs into categories based on features
+	Hidden Markov models (HMMs)
+		solves inference
+		suitable for patter matching:
+		needs training
+	CRF (MALLET)
+		logistic regression to sequential data
+	N-grams certain item pairs are likyly to occure much more freuently than others
+	Used for:
+		Suggested auto-completion 
+		Spelling correction
+		Speech recognitions
+		Word disambiguation
+	Unsupervised text mining on clinical trials from ClinicalTrials.gov

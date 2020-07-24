@@ -1,0 +1,10 @@
+bin/
+.git/
+hs_err_pid28378.log
+include/
+lib/
+NonCode/
+OntologyRelated/
+output/
+__pycache__/
+res/
