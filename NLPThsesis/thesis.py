@@ -1,7 +1,7 @@
 from owlready2 import *
 import inspect
 from collections import defaultdict
-from printModule import *
+from myUtilities import *
 from functools import reduce
 
 ontPath = "/home/angelos/thesis/OntologyRelated/OWL-Ontology/"
@@ -191,5 +191,3 @@ printToFile(EntitiesVocabulary.values(),"/home/angelos/thesis/output/EntitiesVoc
 
 # print(onto.search(base_iri = "http://www.semanticweb.org/ntua/iccs/harmonicss/terminology/vocabulary#"))
 # print(dir(vocabularyNmspc))
-
-
